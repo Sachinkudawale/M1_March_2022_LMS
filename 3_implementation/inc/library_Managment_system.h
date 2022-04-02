@@ -8,8 +8,7 @@
 
 
 /**
- * @brief structure for Book Record
- * 
+ * structure for Book Record
  */
 typedef struct library
 {
@@ -19,7 +18,7 @@ typedef struct library
 }book;
 
 /**
- * @brief return type for funtions for unit testing
+ * return type for funtions for unit testing
  * 
  */
 
@@ -29,38 +28,38 @@ typedef enum test_values {
 }test_values;
 
 /**
- * @brief function to find a book by its ID
- * @param id 
- * @return test_values 
+ *  function to find a book by its id
+ * param id 
+ * return test_values 
  */
 test_values searchbook(int id);
 
 /**
- * @brief function to add new books to the library
+ * function to add new books to the library
  * 
- * @return test_values 
+ * test_values 
  */
 test_values addition(int id,char name[],char author[]);
 
 /**
- * @brief funtion to denote discarded books
+ *  funtion to denote discarded books
  * 
- * @param id 
- * @return test_values 
+ * param id 
+ * return test_values 
  */
 test_values deletebook(int id);
 
 /**
- * @brief function to view all the books
+ *  function to view all the books
  * 
- * @return test_values 
+ * return  test_values 
  */
 test_values issuebook(int id);
 
 /**
- * @brief function to issue the books
+ * function to issue the books
  * 
- * @return test_values 
+ * return test_values 
  */
 test_values viewbook(void);
 
