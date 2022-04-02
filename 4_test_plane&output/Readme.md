@@ -4,7 +4,7 @@
 # High level test plan
 
 |TEST ID| DESCRIPTION| EXPECTED I/P|Expected_output |Actual_Output|Type_of_Test|
-| :-----|:-----------|:-----------------------|--------------------|-----------|
+| :-----|:-----------|:------------|----------------|-----------|---------------|
 |HL01|Add Books|Category,Bookname,Author,Price| book added|pass|Requrirement
 |HL02|Delete Books|Category,id|book deleted|pass |Requrirement
 |HL03|Search Book|Category id| search book |pass|Requrirement
