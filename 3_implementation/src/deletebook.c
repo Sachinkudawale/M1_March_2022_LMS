@@ -1,11 +1,4 @@
-#include<library_Managment_system.h>
-
-/**
- * @brief function to remove the records of a book
- * 
- * @param id 
- * @return test_values 
- */
+#include"library_Managment_system.h"
 
 test_values deletebook(int id)
 {
