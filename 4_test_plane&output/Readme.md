@@ -3,13 +3,13 @@
 
 # High level test plan
 
-|TEST ID| DESCRIPTION| EXPECTED I/P|Expected_output  |Actual_Output|Type_of_Test|
-| :-----|:-----------|:------------|------------|-----------|------------|
-|HL01|Add Books|Category,Bookname,Author,Price| book added|passs|Requrirement
-|HL02|Delete Books|Category,id|pass|Requrirement|  book deleted |Requrirement
-|HL03|Search Book|Category id|pass|Requrirement| search book |Requrirement
-|HL04|Issue Book|Category,id|pass|Requrirement|  book issue|Requrirement
-|HL05|View book|Category,id|pass|Requrirement|   book view|Requrirement
+|TEST ID| DESCRIPTION| EXPECTED I/P|Expected_output |Actual_Output|Type_of_Test|
+| :-----|:-----------|:-----------------------|--------------------|-----------|
+|HL01|Add Books|Category,Bookname,Author,Price| book added|pass|Requrirement
+|HL02|Delete Books|Category,id|book deleted|pass |Requrirement
+|HL03|Search Book|Category id| search book |pass|Requrirement
+|HL04|Issue Book|Category,id|book issue|Requrirement
+|HL05|View book|Category,id|book view|pass|Requrirement
 
 
 # Low level test plan
