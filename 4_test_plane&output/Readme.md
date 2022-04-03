@@ -8,7 +8,7 @@
 |HL01|Add Books|Category,Bookname,Author,Price| book added|pass|Requrirement
 |HL02|Delete Books|Category,id|book deleted|pass |Requrirement
 |HL03|Search Book|Category id| search book |pass|Requrirement
-|HL04|Issue Book|Category,id|pass|book issue|Requrirement
+|HL04|Issue Book|Category,id|book issue|pass|Requrirement
 |HL05|View book|Category,id|book view|pass|Requrirement
 
 
